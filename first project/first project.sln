@@ -7,6 +7,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "first project", "first proj
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskWithVariables", "TaskWithVariables\TaskWithVariables.vcxproj", "{739D2EF4-3626-45D9-814E-961C823B3C90}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Podstawy programowania", "01.Podstawy programowania", "{72E253FD-C8EE-4DBD-B631-5A9E8F5075B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Instrukcje warunkowe", "02.Instrukcje warunkowe", "{2FD8B863-0174-47E3-A2C7-BC2069BE15E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DecisionInstruction", "DecisionInstruction\DecisionInstruction.vcxproj", "{84DD4C72-4C30-48E8-934E-8D9BF288F2A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,9 +37,22 @@ Global
 		{739D2EF4-3626-45D9-814E-961C823B3C90}.Release|x64.Build.0 = Release|x64
 		{739D2EF4-3626-45D9-814E-961C823B3C90}.Release|x86.ActiveCfg = Release|Win32
 		{739D2EF4-3626-45D9-814E-961C823B3C90}.Release|x86.Build.0 = Release|Win32
+		{84DD4C72-4C30-48E8-934E-8D9BF288F2A2}.Debug|x64.ActiveCfg = Debug|x64
+		{84DD4C72-4C30-48E8-934E-8D9BF288F2A2}.Debug|x64.Build.0 = Debug|x64
+		{84DD4C72-4C30-48E8-934E-8D9BF288F2A2}.Debug|x86.ActiveCfg = Debug|Win32
+		{84DD4C72-4C30-48E8-934E-8D9BF288F2A2}.Debug|x86.Build.0 = Debug|Win32
+		{84DD4C72-4C30-48E8-934E-8D9BF288F2A2}.Release|x64.ActiveCfg = Release|x64
+		{84DD4C72-4C30-48E8-934E-8D9BF288F2A2}.Release|x64.Build.0 = Release|x64
+		{84DD4C72-4C30-48E8-934E-8D9BF288F2A2}.Release|x86.ActiveCfg = Release|Win32
+		{84DD4C72-4C30-48E8-934E-8D9BF288F2A2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DCC4871-4F4D-41EA-842F-CE3271ABFEBF} = {72E253FD-C8EE-4DBD-B631-5A9E8F5075B7}
+		{739D2EF4-3626-45D9-814E-961C823B3C90} = {72E253FD-C8EE-4DBD-B631-5A9E8F5075B7}
+		{84DD4C72-4C30-48E8-934E-8D9BF288F2A2} = {2FD8B863-0174-47E3-A2C7-BC2069BE15E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95134C27-7AE1-4A94-B691-ACF6DBF7FFD8}
