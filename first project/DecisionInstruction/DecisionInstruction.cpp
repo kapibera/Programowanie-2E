@@ -13,10 +13,12 @@ void task1()
 
 	std::cout << "Podaj druga liczbe\n";
 	std::cin >> secondNumber;
-
+	
+	//iloaz
 	int quotient;
-
-	quotient = firstNumber / secondNumber;
+	
+	if (secondNumber != 0);
+		quotient = firstNumber / secondNumber;
 
 	std::cout << "Iloraz" << quotient << "\n";
 }
