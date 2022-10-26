@@ -4,7 +4,6 @@
 /*DRY - don't repeat yourself - nie powtarzaj siê*/
 
 /*Napisz funkcje, która wczyta dwie liczby i wykona dzielenie na nich*/
-
 void task1()
 {
 
@@ -33,13 +32,30 @@ void task1()
 		quotient = firstNumber / secondNumber;
 		std::cout << "Iloraz: " << quotient << "\n";
 	}
-	if (secondNumber == 0);
+	else
 	{
 		std::cout << "Dzielenie przez zero!!!\n";
 	}
+
+	std::cout << "Koniec programu\n";
+
 }
+
+/*Napisz funkcje, która wczyta liczbê i wyœwietli informacje czy jest ona dodatnia czy nie*/
+void task2()
+{
+	int numberToCheck;
+
+	std::cout << "Podaj pierwsza liczbe\n";
+	std::cin >> numberToCheck;
+
+
+}
+
+
 
 int main()
 {
-	task1();
+	//task1();
+	task2();
 }
