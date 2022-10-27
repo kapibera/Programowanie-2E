@@ -67,6 +67,7 @@ void task3()
 
 	std::cout << "Liczba jest w zakresie\n";
 	std::cout << "Liczba nie jest w zakresie\n";
+
 }
 
 
