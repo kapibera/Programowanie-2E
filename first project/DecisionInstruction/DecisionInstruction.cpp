@@ -24,14 +24,14 @@ void task6()
 
 	int firstNumber, secondNumber;
 
-	std::cout << "Podaj pierwsz¹ liczbê\n";
+	std::cout << "Podaj pierwsza liczbe\n";
 	std::cin >> firstNumber;
 
-	std::cout << "Podaj drug¹ liczbê\n";
+	std::cout << "Podaj druge liczbe\n";
 	std::cin >> secondNumber;
 
 	if (firstNumber > secondNumber)
-		std::cout << firstNumber << "jest wiêksza";
+		std::cout << firstNumber << "jest wieksza\n";
 	else
 		std::cout << secondNumber << "jest wieksza\n";
 }
@@ -49,14 +49,16 @@ void task7()
 	std::cout << "Podaj trzecia liczbe\n";
 	std::cin >> thirdNumber;
 
-	if (secondNumber < firstNumber > thirdNumber)
-		std::cout << firstNumber << "jest wieksza";
-	else if (firstNumber < secondNumber > thirdNumber)
-		std::cout << secondNumber << "jest wieksza";
-	else if (firstNumber < thirdNumber > secondNumber)
-		std::cout << thirdNumber << "jest wieksza";
+	if (firstNumber > secondNumber && firstNumber > thirdNumber)
+		std::cout << firstNumber << "jest najwieksza";
+	else if (secondNumber > firstNumber && secondNumber > thirdNumber)
+		std::cout << secondNumber << "jest najwieksza";
+	else if (thirdNumber > firstNumber && thirdNumber > secondNumber)
+		std::cout << thirdNumber << "jest najwieksza";
 
 }
+
+
 
 
 
