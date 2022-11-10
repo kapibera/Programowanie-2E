@@ -19,6 +19,26 @@ void task4()
 		std::cout << "liczba jest parzysta";
 }
 
+void task5()
+{
+	int sideOfSquere;
+
+	std::cout << "podaj dlugosc boku kwadratu:\n";
+	std::cin >> sideOfSquere;
+
+	if (sideOfSquere > 0)
+	{
+		int area = sideOfSquere * sideOfSquere;
+		int circuit = 4 * sideOfSquere;
+
+		std::cout << "Pole:" << area << " Obwod:" << circuit << "\n";
+	}
+	else
+		std::cout << "Podaleœ nieprawidlowa wartoœæ boku. Powinna byæ wieksza od zera.\n";
+
+}
+
+
 void task6()
 {
 
@@ -67,7 +87,8 @@ void task7()
 int main()
 {
 	//task4();
+	task5();
 	//task6();
-	task7();
+	// task7();
 
 }
