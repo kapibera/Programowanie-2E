@@ -78,7 +78,14 @@ void task7()
 
 }
 
+void task12()
+{
+	int temperatura;
 
+	std::cout << "Podaj temperature: ";
+	std::cin >> temperatura 
+
+}
 
 
 
@@ -87,8 +94,8 @@ void task7()
 int main()
 {
 	//task4();
-	task5();
+	//task5();
 	//task6();
-	// task7();
+	//task7();
 
 }
